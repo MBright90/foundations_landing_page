@@ -16,6 +16,9 @@ body {
 a {
     color:#e5e7eb;
     text-decoration: none;
+
+    transition: 2s;
+    -webkit-transition: .2s;
 }
 
 a:hover {
@@ -32,6 +35,9 @@ button {
     font-size: 16px;
     font-weight: 700;
     padding: 6px 30px;
+
+    transition: 2s;
+    -webkit-transition: .2s;
 }
 
 .content-layout {
@@ -48,7 +54,7 @@ button {
     display: flex;
     gap: 20px;
     font-size: 18px;
-    padding: 16px 20%;
+    padding: 32px 20%;
     justify-content: space-between;
 }
 
@@ -215,4 +221,16 @@ button {
     color: #3882f6;
     transition: .2s;
     -webkit-transition: .2s;
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
