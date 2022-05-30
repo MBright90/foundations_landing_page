@@ -28,6 +28,7 @@ a:hover {
 }
 
 button {
+    align-self: center;
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
@@ -115,7 +116,7 @@ button {
     align-items: center;
     width: 500px;
     height: 300px;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 }
 
 .title-img:hover {
